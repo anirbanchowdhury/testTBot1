@@ -6,7 +6,7 @@ from config import BOT_TOKEN, API_KEY,IDS_ALLOWED
 def movie_handler(update, context):
     """ Get the userId + firstname + get/store results"""
     id = int(update.message.from_user.id)
-    if id not in IDS_ALLOWED:
+    if len(IDS_ALLOWED) >0 and id not in IDS_ALLOWED:
         print(id)
         update.message.reply_text("Sorry, i dont know you")
         return
