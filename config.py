@@ -1,5 +1,5 @@
 # Telegram bot token
-BOT_TOKEN = ""
+BOT_TOKEN = "5400610019:AAFBrYSC_d6K9KV3PHYFXYMTlvmn3lXBSsc"
 API_KEY=""
 IDS_ALLOWED=[]
 
